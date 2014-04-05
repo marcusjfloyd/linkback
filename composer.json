@@ -1,0 +1,19 @@
+{
+    "name": "marcusjfloyd/linkback",
+    "description": "Based on PEAR2 Linkback Services",
+    "keywords": [
+        "linkback",
+        "pingback",
+        "webmention"
+    ],
+    "homepage": "http://www.phanteye.com",
+    "require": {
+        "php": ">=5.3.0"
+    },
+
+        "autoload": {
+                "psr-0": {
+                        "Linkback\\": "src/PEAR2/Services/Linkback"
+                }
+        }
+}
